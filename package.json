@@ -1,0 +1,13 @@
+{
+  "name": "rutgers-geoguessr-2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build-catalog.mjs && node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "audit:coordinates": "node scripts/audit-coordinates.mjs"
+  }
+}

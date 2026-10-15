@@ -1,0 +1,11 @@
+import { readFile, writeFile } from 'node:fs/promises';
+import { reviewedPhotos } from './photo-review.mjs';
+import { validateCatalogCoordinates } from './coordinate-evidence.mjs';
+const source = JSON.parse(await readFile('data/catalog.json', 'utf8'));
+const evidence = JSON.parse(await readFile('data/coordinate-evidence.json', 'utf8'));
+const review = JSON.parse(await readFile('data/photo-review.json', 'utf8'));
+const approved = await reviewedPhotos(source, review);
+validateCatalogCoordinates(approved, evidence);
+const client = approved.map(({ download, original, description, ...location }) => ({ ...location, imageTransform: 'Resized WebP; displayed only within the visually reviewed photo frame.' }));
+await writeFile('dist/locations.json', JSON.stringify(client) + '\n');
+console.log(`Prepared ${client.length} reviewed views across ${new Set(client.map(x => x.group)).size} locations.`);

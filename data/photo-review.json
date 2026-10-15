@@ -1,0 +1,1399 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-15T23:18:26.260590+00:00",
+  "policy": "Five untimed rounds with strictly increasing photo difficulty, from recognizable surroundings to anonymous paths and interiors. Retain the broad reviewed views and horse pasture. Exclude readable location names and named entrances. Fixed reviewed frames prevent zoom, pan or fullscreen from exposing the rest of the image. Preserve original camera coordinates and re-review changed image bytes.",
+  "photos": {
+    "105875254": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "139e9127c10563b1f622cbf41794379ac30e6c2481ba37d49a89acf1744afe80",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "105875256": {
+      "status": "excluded",
+      "reason": "Cook Student Center / Cook Campus Center is readable in the photo.",
+      "sha256": "f117bb208bce1e50e5850e6775fdb6dca0faaa23e591bc848a0854d744f7a03f"
+    },
+    "105875257": {
+      "status": "excluded",
+      "reason": "Cook Student Center / Cook Campus Center is readable in the photo.",
+      "sha256": "a3916a32e4c13450d7fda55ad5237ff355197627613dda611467839895ca4187"
+    },
+    "147766289": {
+      "status": "excluded",
+      "reason": "Cook Student Center / Cook Campus Center is readable in the photo.",
+      "sha256": "46c7aee2edc07333ae9fc769f066577c451437b4c3b072d7ce3e57b9c84f8fdb"
+    },
+    "105875323": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "59f09851e1c012cd7c6ee5a91a92e69312ea134a32faf39025cb4af6eccf5598",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "105875345": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "055a91f24d6c15d09d798dd3e854215165c14e930c599398a432ec4fd404f07b"
+    },
+    "105875346": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "295842425082932b2019bc39f7916084accfb3114b0cf0bb776ac12d4c480d04"
+    },
+    "105875347": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "e09674d5e21a8c2d6871e4d25231678d743efdaf4f230b59186dace2063910c4"
+    },
+    "105875332": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "75e0b92a760e1be94ed9ca9881765f7db892caa442408aae2e9187c6e06b000c",
+      "frame": [
+        0,
+        0.4,
+        0.45,
+        0.6
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "105875333": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "bcc14d811310c0faca5f25d3e3bbf27fa51c9d7f0834b94416f94044d431c37f"
+    },
+    "105875335": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "fd9389226a32bce4a7c74eba6c56276874b471d405dfe393f8d34b52601cfd88"
+    },
+    "105875375": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "f3e0b970ddb77650af4fde395c870ddfeb42c3ceefd68b7b01cce44fc691e643"
+    },
+    "105875336": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "a9540177c7fd2ee37b6d9c7c216cd04fe90e3334f69739117a17afa2789038ea",
+      "frame": [
+        0.4,
+        0.08,
+        0.6,
+        0.42
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "105875337": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "d901eb1b807e6f6719a39f55c1a1b69cbc454020b60cc497265d83a202c5ac19",
+      "frame": [
+        0,
+        0,
+        0.6,
+        0.55
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "105875339": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "087f8c92a990b44be1e7d76fd004772fa958a8254a9b6bbf6c57046c82bd376d"
+    },
+    "105875359": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "d63bb13494beb3e0f2b3ff38abe718cebe07ba9d2b74fb108d5bff9d10c505fd"
+    },
+    "147766384": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "76b6c9b8ed94ff68427b18cd717101e29100ca12a4228bd609c8e62d9fb734f1",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "147766397": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "8bbb16753e340cccb6cb1fd95931a6abb1e33274d4fdae225b855bc1c73c665d"
+    },
+    "105875341": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "08dbddd565cd93bc6723a585347ab9764683839bf1b12c9ae3a7b9b1db694157",
+      "frame": [
+        0.26,
+        0.3,
+        0.73,
+        0.7
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "105875342": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "b92e3eefe02ab917f6a3def372d304a5a769a25abd6428e2e8794100561946e8"
+    },
+    "105875344": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "2e5e38e47d51080a63ccc1fc1f14e8433267d426c06b7c243d5b39ef68f33fa4"
+    },
+    "105875366": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "ce4f6f0f4749eca7a0888d33dafa346e0b6e0d88ef669a041ff5e5476e36c848"
+    },
+    "105875352": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "26e3dffb02d9d29d2cf7af32de3f22197afefcac0a58d610c4431b8bd37109e8",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "105875354": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "4f03824602af2eec3a224f9eed4ae6c74388d604046d6510b373e9aff8b6f6ca"
+    },
+    "147766558": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "474e74baee6901eb017e078938663d50a0d907223dd0a4a9cb2c6761f048053f"
+    },
+    "105875355": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "ee09602464af5311fc778c8a9eb5278c496105950b2265af9cea6f73b67f5e82"
+    },
+    "105875356": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "01db887474312b2f947b5fbb8a11b510ed47419851fefa369836565e5ee10656",
+      "frame": [
+        0.05,
+        0.05,
+        0.6,
+        0.9
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "105875357": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "c61a4d1fe642a09c964c4576680b43739fa24ecb829f083429534a7d4e43cb91"
+    },
+    "147766396": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "b14c4f25fe650518f7c269c88be645d66ab5da9f0a2d46de702a14508a5912c6"
+    },
+    "105875373": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "542b4e0940967acaf7517bddc21bfd1a5edbcaa3346613cb10bb2b88302927b0"
+    },
+    "105875374": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "b143c3fb67c6354b7be42e734a646f08fcb91ded8fcb24e48f407e1ce84d1054"
+    },
+    "105875376": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "8d3f77ea755acb778bcca99d4c7de5e01d9bfe924d3f571fa2d20513579dea53",
+      "frame": [
+        0.35,
+        0.05,
+        0.65,
+        0.95
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766557": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "6762c612c500b1ef9b8c224e3b2b52796afabab58ebf818cc2c909b3a666af3e"
+    },
+    "105875378": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "2f52547065ecbdc32572964ea1fe95ff34078a734d59ece2e59e9cb5beb14094",
+      "frame": [
+        0.35,
+        0.05,
+        0.65,
+        0.6
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "105875380": {
+      "status": "excluded",
+      "reason": "Post office / mail-services signage identifies the location.",
+      "sha256": "2424f21077b4fbad44a8e70148d2f4a9f2de711c09f5202fc546d4e7e4ced904"
+    },
+    "147766574": {
+      "status": "excluded",
+      "reason": "Post office / mail-services signage identifies the location.",
+      "sha256": "ffcc8b559138169f9d29e08a451e357a58d720f476ed2563a74d6f0931b124bd"
+    },
+    "82443530": {
+      "status": "excluded",
+      "reason": "Post office / mail-services signage identifies the location.",
+      "sha256": "b054e81215cf39e427f460d46b7ca949fb90e19aed32ac8dffd175b7a6140849"
+    },
+    "105875381": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "87c747bc3c457596102062a2e03982c50bc9429f67bd85b470813683fc4fa393"
+    },
+    "147766576": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "c8de4f46459ba7fe87edb05516a77c4743fb2818964bd0eac1ea79ab4511a218",
+      "frame": [
+        0.3,
+        0,
+        0.7,
+        0.5
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "105875389": {
+      "status": "excluded",
+      "reason": "LEONORE L ROREE / L F LOREE lettering is readable on the brick facade.",
+      "sha256": "c723047e6caea466868fc95e3c1ff5973cb92747206c438c144593e28f8ad234"
+    },
+    "105875415": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "89c35c73af7859f65662c1248b71d433d91878e471ef7ca8107ca5f382079f20",
+      "frame": [
+        0.58,
+        0.15,
+        0.42,
+        0.8
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "105875424": {
+      "status": "excluded",
+      "reason": "LEONORE L ROREE / L F LOREE lettering is readable on the brick facade.",
+      "sha256": "a7a1afda7b509362067c61ad68471b671d605e371ecd6da5bf336879ec03fab3"
+    },
+    "147766367": {
+      "status": "excluded",
+      "reason": "LEONORE L ROREE / L F LOREE lettering is readable on the brick facade.",
+      "sha256": "d2e12170fe5fcffc8f525444addbe2dba894422be6bc80dbc107d1c4c062546c"
+    },
+    "105875418": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "7398a3e35f354ef6feaba8f73feaab9d009f2c3e664479e23019e3932824c716"
+    },
+    "147766379": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "483669b54981f06fc23de71738c14c9708f2e2022a7856e175c270504dc49770",
+      "frame": [
+        0.02,
+        0.2,
+        0.6,
+        0.75
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766380": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "b134f81873b03b37897bceaab977b52778f0ad35d7c1e6ebafa22dad51b81447"
+    },
+    "82443527": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "a95b99d3ca714824846dad9538f26891807a058524e09faafa3292f43adb7a94"
+    },
+    "105875425": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "34e614efa4f31595b13649ca61f10394e2636a1e28dd0d942c939a4fe67cede6",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "105875427": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "122630db518c11cf32ae9d3eeb19fb4ee221f2a9e7fb99a2c0de08dff04da4b9"
+    },
+    "105875429": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "56c615c72437bdd14d787c6da8030054e9ba16ccd0dbda457fe752cd68beb518"
+    },
+    "147766356": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "77a2904e6d7b8c4058e458b35c19622b6855baf6641d7190a564819b8152bbf1",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "105875430": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "6ce9537aeb6ff43474a91ce53ffbb3dd0953e686802d320a0574ba1e37b7fbd1"
+    },
+    "105875431": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "0396865db7a415f7832bab39663fce6c71615075dd74b2be92b4412623449320"
+    },
+    "147766351": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "08e97968ee684b9a4a6ad34b39393b9756a131233b5c8d10efc709d441e76cdf",
+      "frame": [
+        0.2,
+        0.12,
+        0.72,
+        0.78
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766352": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "d26718398a10c5161fadee0e2a2e807d72c9859c446d18dbbf4e1a82aa7c4105"
+    },
+    "105875437": {
+      "status": "approved",
+      "reason": "Apartment name plaque excluded; reviewed view retains windows, wall, trees, fencing or walkway.",
+      "sha256": "401d8f8fd1d6ac13f01d25293bd9b12a87ba117f71a38d2acc4fa8ce907dcea8",
+      "frame": [
+        0.02,
+        0.28,
+        0.48,
+        0.72
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "105875438": {
+      "status": "approved",
+      "reason": "Apartment name plaque excluded; reviewed view retains windows, wall, trees, fencing or walkway.",
+      "sha256": "7125949a899927d654c04a2fd20d0ff91dbbbff1aed2495216e774b97f6a75d7",
+      "frame": [
+        0.58,
+        0.35,
+        0.42,
+        0.6
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766258": {
+      "status": "approved",
+      "reason": "Apartment name plaque excluded; reviewed view retains windows, wall, trees, fencing or walkway.",
+      "sha256": "b5622bb5ef1942aa3d5add4c51acc1c65f10a21294aa40533f398815b85499d8",
+      "frame": [
+        0.58,
+        0.28,
+        0.4,
+        0.6
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766259": {
+      "status": "approved",
+      "reason": "Apartment name plaque excluded; reviewed view retains windows, wall, trees, fencing or walkway.",
+      "sha256": "33afe46f73638c8852d456835f30ae994f5f5ce66b841c54ef40a13d4e73fec3",
+      "frame": [
+        0.05,
+        0.4,
+        0.43,
+        0.6
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "105875445": {
+      "status": "excluded",
+      "reason": "Post office / mail-services signage identifies the location.",
+      "sha256": "60595e5f5aaffefb76bae5caccce4898a741c0c9be789f9d24ee08c1dc7eb943"
+    },
+    "147766256": {
+      "status": "excluded",
+      "reason": "Post office / mail-services signage identifies the location.",
+      "sha256": "216d441b9aa82f57c1c9ea02ad152610ef8b56c76904826e5ac31dc310065c6a"
+    },
+    "147766257": {
+      "status": "excluded",
+      "reason": "Post office / mail-services signage identifies the location.",
+      "sha256": "7e9998bc929ba661846f372c3bc8d7224004aab31e79d6b817000f097b360c7b"
+    },
+    "147766272": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "dc79cb8a4303648030d439b1becc7c76e943a87b0e53e48f2cd68225cda94efc",
+      "frame": [
+        0,
+        0.45,
+        0.35,
+        0.55
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "105875446": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "1c94846b413d9f416061781ba9257267bec511a153402bfd17d3de7825d347dd",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "105875447": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "f058eb43a192f235899f0a338a713cd6ee6d7cc63a6464d56545137eebec740c",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "105875450": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "d7db6cb5b8dc7944070abefe107b7682053ac9bc0d6a756f8a35a4716b222dae",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766250": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "fe5cc1feed0b5a9f176f3f741b474c36c77a223f383a27e743a98b1c8d6cdef1",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "105875449": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "3a75706a9064da11892e026ae49995a75790b9ab1d4b5a6669a8a37ae5a1b195",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766248": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "59a9098090c05cb41a86986dbcc602fbc8524c22f343215e4e04ac3e4dea81a9",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766252": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "f1dffaf2c4a6450e9488a62e7998e6e1f5ac1fd9b899537da0361e8efefefe30",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "147766276": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "773a686050cd7eceaf9ddadae4cdfb62241c5ef4e34f8315e26c39b7a0bf50f4",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "105875453": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "9c3731642065f327f5b77e3059836b0c3765879e72146c558eb64dc45e3bb503",
+      "frame": [
+        0.05,
+        0,
+        0.9,
+        0.45
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "105875456": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "d2da77cb777970b8dec890e6f5416193d41b4432f7ba6e953328783a40736469",
+      "frame": [
+        0.6,
+        0,
+        0.4,
+        0.8
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "105875459": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "018489a6f044791cdf8e6f7870491528a64539dfbeb8c0b5d55736440964f29d",
+      "frame": [
+        0,
+        0.1,
+        0.45,
+        0.8
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "147766665": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "2b141fb11ca0531f08336ae02c08f6cfff20c1b16bc801e03fa5e40ed94f7095"
+    },
+    "105875460": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "677daf7c202cdf2c74371715913f59c3a0c3d7934447feceb473f41e47dab1cb"
+    },
+    "105875494": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "52c1dc2314087211b6a31624d258a402f847ddd22c020197e564e5b57617639f"
+    },
+    "105875495": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "476f0ad8018b2feaed0c539ff71e7fa2cbe34bf2b36cc3d3e2af712a9054dadc"
+    },
+    "147766660": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "86e1300637f3015d439a2240b5c6651883af448897c64b7742a0198e0340fca7",
+      "frame": [
+        0,
+        0,
+        0.65,
+        0.75
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "105875463": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "c0445da76a106fad5849dd44832b7aa475905dcdfcbeaab0369fbd86ac3945a0"
+    },
+    "105875464": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "a2662c3cdb38f662742d5d6046de1b8aaebec1ed68c009a43d11dac531ad4a6d"
+    },
+    "105875465": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "1be86bf19de429ae453977f2c22d02491fabc403432ff65bdf0939f96d97c0d8",
+      "frame": [
+        0,
+        0.04,
+        0.55,
+        0.91
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "147766657": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "1536669fe9613aca4229237f7313e9d4b1f9d9717e0116e194c812a75e283e60"
+    },
+    "105875497": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "df0d15c901b931ca828a74409321c609235a3f4f1434cb596cc9142520030c8f"
+    },
+    "105875498": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "27b47bcc1978936260f91f581f1d5b8a0f6da44cf28cd8f47595e3fba81388a3"
+    },
+    "105875499": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "aebf4ad7340837713b908ebf2190dc5f996c27debbd58acd504315fd6353953b",
+      "frame": [
+        0.01,
+        0.05,
+        0.7,
+        0.85
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766664": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "668d95fd608608ba88124c557ced03150eba54f3bf7beb522a3d5ba3c2a6d514"
+    },
+    "112481100": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "f77687fa06afd47d48543137b9a8f37abc1471fd542e154d629028a793612968",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "186008819": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "4d3be7f2e9e00612bb28e384721fe58325a4c0c44e4af3bffe4ce0a6070534fa"
+    },
+    "93117140": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "a85e441f401a7e50accd1d3a9dffccc617916fbd20be0401edd535c42c4f855d"
+    },
+    "125141382": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "ad47faac7ecea23fd50f1c74ada325ce7839a115263382d12b69bf7fe30c2344"
+    },
+    "185919392": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "954c947fb14c8273db0f6e3db13da4502594559ee9417096ae2bf47c2b68086e"
+    },
+    "6510125": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "13000c45b5431f97703a3c8c85b25b37d2afd49371808a28e42b8e4f330ebdc9"
+    },
+    "81659692": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "e0797b34f7a1474bc2d30c60122d1383b1d5cf783883bdca5d5431a61bffcc8e"
+    },
+    "147766275": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "955031a90b2c07b06f813dc87eb067491e81c336abbac89563ba9caf26665341",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766278": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "e968a099b302affbbfc8a201eb91e884c201ab977af22fccead2905f41e3420a",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "147766279": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "535552c3b8498d7dc4de1c5dba71abd589242c2366df261bd540356dd84da548",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "147766280": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "f7050d55052ff02d446f0531b147d6de28071710d9478929bac2ad992a95c4d6",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "147766348": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "5c53c970b8850bc32389fdbfb29f911b969ea6e6ab8bba035d2c0e2c122be573",
+      "frame": [
+        0.08,
+        0.05,
+        0.75,
+        0.8
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "147766349": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "b2fa29b4cedac60ad48534bc89b01f8eccb6f02e6a0e87efe44a095838503705"
+    },
+    "147766669": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "c627ac8c27686a7edf2b815afe8f2aa786aa4dd8e400be3ac675ab9e3f2aa4b8",
+      "frame": [
+        0,
+        0,
+        0.6,
+        0.9
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "186008800": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "e96ba381615c433e94343ec9dfe586fb990c38bd82d2be4a7a2b76df2c72bab5"
+    },
+    "193984610": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "4ad9781f5a90486a3964949edad4ab75782d9cccf400026a297f526f901dee5d"
+    },
+    "72311639": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "a07fc8b9d6c09dbc0443d59d06b831cc8280a3d6a4ba8298dc063274111e6fe7"
+    },
+    "72624882": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "f2c99e8d0c786dbc9e9910d54eda0e421143cb86776f5b3fc58472f4771af7be"
+    },
+    "72625394": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "d9d38e489ec89cfac4eab5ae0ad2732e4b3e20e454f14095faae81ca3849a3b2",
+      "frame": [
+        0,
+        0.3,
+        0.5,
+        0.7
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "72497364": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "f041fc43c524446d389147f85261a406750b7077cfbb6a07a560f6169e30ed52",
+      "frame": [
+        0.25,
+        0,
+        0.75,
+        0.58
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "72498090": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "1426913b300b0091bcbcf0b7bb496a4824326a6324381a2481d5185d7191863f"
+    },
+    "35543921": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "8aa2252227534a0724381db59577f6879bbf6414cdebbd6c701f0b23a6fd8e84"
+    },
+    "35544052": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "def545692fd044a086f31fc5189f59d7229e153911792b5b1770bd5176c86b7f",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "185919394": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "bc736e2bfa3c2ba6866160f43c16c5b45c41bca7cba44f47012957d1d65fd0a1"
+    },
+    "185919512": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "5bd9f7cb07afabd2991056fe7e0350b8c218cd75f543637af84acf7d75ca68ad"
+    },
+    "186664086": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "91a8f9987a98d5775d99f87803e2dac755e3422e3240770b214dd5cb02536cf8"
+    },
+    "92713505": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "36b1d497e618c5b2b77b71fd8d79ba52c1f0baf2c00af80b74281eec23367284"
+    },
+    "185919396": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "3f186071b107871e1298e41076ac2cfb38e6981319af37044e571843ce14f908"
+    },
+    "37791944": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "e03fec9251828096644cdb2f6f394d1d9f5a836fb8b769ca1053065fe92dd822"
+    },
+    "186008786": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "3d3b0144c61d9f1933b38decafe94f79cdb4d37fc1e492d3e44b7c51e9976cdf"
+    },
+    "186008803": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "01876e92108645dca5c8b9fb4375f6fbae28b0eff25f1f8528d7dfaa18547aeb"
+    },
+    "81898649": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "7355fcab991bb27e97f0eb079c9d2afeb13626f17246a29e27ce700f6f4f2902"
+    },
+    "81899418": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "5596416b49ab556d406bc94e15640ad287f4bc7347fb74974cf21afda42a3fc9"
+    },
+    "186008804": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "ab5a8f41c95f76deb0f952edd80233477c59052c0ac5d57a878bfe4b777d28b8"
+    },
+    "35530727": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "9eb69e6eefa016fac18a43c752fd68e93358e33b2e6cde749dfe0f766817a2fc"
+    },
+    "72887735": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "0596b629c6c9e921df2a9b2f3896f1b1ff7a365288cf3115cdfb189a4ab54062",
+      "frame": [
+        0.05,
+        0,
+        0.65,
+        0.65
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "186008806": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "4fb301cd2e1f864467088ed547ff9455fc965656d104ed78a596fe08f9e59445"
+    },
+    "72656583": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "4eb804c88c1ccb18ca0aa9be71408fb4f9d4fa0d9d0c6111da15c9498ad4f2d9"
+    },
+    "186008823": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "eedde6e4220c635ab436ae107fac7098fc3969cf3c0f7d1f888b5aa81d4dd062",
+      "frame": [
+        0,
+        0,
+        0.9,
+        0.53
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "186008826": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "b48f0c898a567e08b611643110f5eb5a7d0e34a6bd56baa9bd6cb3e527327d6d"
+    },
+    "193984346": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "83c9fdcf0105aa859192b426bcb2b585ac6dab8b46b3f6845c92118d02bf8936"
+    },
+    "193984347": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "2e3af4b12f18a8ea75e978ec6350227aae27456ec0fbbed3ae76bc85590c0f9c",
+      "frame": [
+        0,
+        0,
+        0.9,
+        0.7
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "193984349": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "2e78edcce58fd90627136ed702f4d5c16084757aae6c6ce9e884ccdb8eb72f3d",
+      "frame": [
+        0.15,
+        0.15,
+        0.8,
+        0.8
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "25172275": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "c29b559094747004b1bedb1396d539a5f7cefa259df0beb9fb5ccb2373b125c3"
+    },
+    "95123426": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "b828c744d79981c0924852208e14b09520d079946306f2f6d4a27b978244e833",
+      "frame": [
+        0.55,
+        0,
+        0.45,
+        0.6
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "27454885": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "62106d3c2a22b14d8bb3da7c83ed4549cf533bd9c22bef9250306a2b3b3ee628",
+      "frame": [
+        0.35,
+        0.12,
+        0.65,
+        0.88
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "27769966": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "ef971395c1b9d62a5919a7b6512081246d0c82db7ec02a8602c8d802770ac1f2",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 5,
+      "difficultyReason": "Very few distinguishing features: unmarked woodland or generic indoor layout; requires precise local knowledge."
+    },
+    "27769967": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "784ff6828a0dfe2901427bc114d4182751df66469e3901fa6df840eab877993c",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 5,
+      "difficultyReason": "Very few distinguishing features: unmarked woodland or generic indoor layout; requires precise local knowledge."
+    },
+    "27769970": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "299eb407cd85ab2919fe41156394f49123f40fb71144269532c784314313a57d",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "27769972": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "8897ead32194c52bd33d1a519f25f747a1bfbbcecc8064c3948713093b5841be",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 5,
+      "difficultyReason": "Very few distinguishing features: unmarked woodland or generic indoor layout; requires precise local knowledge."
+    },
+    "28424983": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "3fa8091e2a995397a47f0fbaf49fc40bddbabc80e08a0845fb45a616c6155d1f",
+      "frame": [
+        0.45,
+        0.2,
+        0.55,
+        0.8
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "28424984": {
+      "status": "excluded",
+      "reason": "Readable location identifiers, direct landmark presentation, or an easier duplicate view.",
+      "sha256": "6558ab34463f29616dd643169229b6a395c4c2ec68ef0481936d9f4e71b385f2"
+    },
+    "32222022": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "68456be7f96e65f51c0e672163c70663b328961773b0b42a32bae702c958dbfc",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "32222030": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "c782494548a04e41d31cc4de973f9840b35e6aad454e6531f6e2bae8aeee0d2c",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 5,
+      "difficultyReason": "Very few distinguishing features: unmarked woodland or generic indoor layout; requires precise local knowledge."
+    },
+    "32222031": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "e68498eef1ebfb9f6aac0b6c0f80f0d4bde80fb5cd04ef3bac1586768eac81b8",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 5,
+      "difficultyReason": "Very few distinguishing features: unmarked woodland or generic indoor layout; requires precise local knowledge."
+    },
+    "32222032": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "f2dfb53487260ac988668aa6232f575f7a915b1598ef6a7d6ac532b5b90871e7",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 5,
+      "difficultyReason": "Very few distinguishing features: unmarked woodland or generic indoor layout; requires precise local knowledge."
+    },
+    "32222038": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "11a5112bad028411108a3259a0f812cfc7e07d26548a58478d73fd9e96ad22d1",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "32222041": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "5e72d2404c68e1d1847aefeb62ea74c4b83e194809b328a3044564f6b50b434c",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "32222045": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "74a50ff30c81e67ecf9c97ffcad615147800940b3b09a19941df4f96b081268b",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 5,
+      "difficultyReason": "Very few distinguishing features: unmarked woodland or generic indoor layout; requires precise local knowledge."
+    },
+    "32240305": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "636e0fa8ef423e828357cb152d9acff1f6858f9de658128aba7c270485b489ae",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "35544148": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "2e3129fc563775ed052b8ec06ec026322b789017afc932cfb2642373a9cb6619"
+    },
+    "70359952": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "22edf58471cc7c6a3e96f3d89f91459e33550c3fa83953d2f7e7f0d70a6c775f",
+      "frame": [
+        0.47,
+        0.16,
+        0.53,
+        0.84
+      ],
+      "difficulty": 4,
+      "difficultyReason": "Unusual angle, anonymous path, rear service view or night view; requires close familiarity with the camera location."
+    },
+    "71643463": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "0570166cf588607dacc519e5eb7d41a9ecd3c40e2a41303631e9b0acb2ce3f0f",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 5,
+      "difficultyReason": "Very few distinguishing features: unmarked woodland or generic indoor layout; requires precise local knowledge."
+    },
+    "71643464": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "904d6f2d5b638a3e837c5c4e8cccf84c201bca45ea16531aba015acb666d4a36",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 5,
+      "difficultyReason": "Very few distinguishing features: unmarked woodland or generic indoor layout; requires precise local knowledge."
+    },
+    "72358432": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "30f9255fcbf10bcb7f5e3b01c460b401bb23fddcee87abec3d053c142bd4ff44",
+      "frame": [
+        0.12,
+        0,
+        0.8,
+        0.47
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "72676591": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "88cac6a5e363ea9bb1f0853c3642113c5e8c694880e3b4765c1a98465338b1ea"
+    },
+    "82102329": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "3e8c9358529198b174937776a415792bf8ab69ce1f10f3034ce569990ef793a2",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "82102330": {
+      "status": "approved",
+      "reason": "Reviewed view of unlabelled surroundings, architecture, paths or interior layout.",
+      "sha256": "14d0097aadbe47e08037529673043ce4a5f3cb83148a9f0a7929642deb337c5a",
+      "frame": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "difficulty": 1,
+      "difficultyReason": "Recognizable overall setting, distinctive building shape or interior; no readable location name."
+    },
+    "82443523": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "983fd8ef86124ccc92803d2d2738f2ce2d21487b8c02a787fbac88fc8329e204",
+      "frame": [
+        0,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "93052199": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "1073360559c2b3e8a2f3d517c68340dd3d21951a9ff6203ada45faada636e2bf",
+      "frame": [
+        0.16,
+        0.15,
+        0.43,
+        0.85
+      ],
+      "difficulty": 3,
+      "difficultyReason": "Partial side view, generic windows, obscured facade or distant surroundings; few strong identifying features."
+    },
+    "93053218": {
+      "status": "approved",
+      "reason": "Reviewed frame excludes readable location names and identifying entrance signs.",
+      "sha256": "98416824ec8a7cb881e821efafbe771e5a3f07ac9991473dab162e8d32aa43b4",
+      "frame": [
+        0.15,
+        0,
+        0.85,
+        0.7
+      ],
+      "difficulty": 2,
+      "difficultyReason": "Less familiar facade, courtyard or campus layout; relies on recognizing architecture and surroundings."
+    },
+    "93117726": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "c5594c56ec72334052f1e93306b8f21238b92021cee9f6794525df9e6d1d4387"
+    },
+    "93117943": {
+      "status": "excluded",
+      "reason": "Direct view of a familiar landmark, prominent named entrance, stadium or arena; excluded from the challenging pool.",
+      "sha256": "deb1b50e8b620a4e03c8fbf7f37551b1238da2f42266c890ef2c402ba329ae75"
+    }
+  }
+}

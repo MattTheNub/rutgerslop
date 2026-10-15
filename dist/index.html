@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#cf2639">
+  <meta name="description" content="Think you know Rutgers? Five rounds. Take your time. Find the hidden corners of campus in Rutgers GeoGuessr 2.">
+  <title>Rutgers GeoGuessr 2 — Know your way around?</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="vendor/leaflet.js" defer></script>
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="./" aria-label="Rutgers GeoGuessr 2 home"><span class="brand-r">R</span><span>RUTGERS<span class="brand-sub">GEOGUESSR <b>2</b></span></span></a>
+    <div class="header-center"><span class="live-dot"></span> NEW BRUNSWICK, NJ <span class="header-coords">40.5008° N · 74.4474° W</span></div>
+    <button class="help-button" id="help-open"><span class="question-icon">?</span><span>How to play</span></button>
+  </header>
+  <main>
+    <section class="intro">
+      <div><div class="eyebrow"><span class="small-line"></span> THE CAMPUS IS YOUR CLUE</div><h1>Know your way <em>around?</em></h1><p>Beyond the bus stops. Behind the buildings. This is Rutgers, up close.</p></div>
+      <div class="intro-stamp" aria-label="Five rounds, untimed, no hints"><svg viewBox="0 0 56 56" fill="none" aria-hidden="true"><circle cx="28" cy="28" r="21"/><path d="m34 20-4 11-10 5 4-12 10-4Z"/><path d="M28 1v7M28 48v7M1 28h7M48 28h7"/></svg><span>FIVE ROUNDS.<br>NO SHORTCUTS.</span></div>
+    </section>
+    <section class="game" id="game" aria-label="Location guessing game">
+      <div class="game-toolbar">
+        <div class="game-label"><span class="live-dot"></span> CAMPUS CHALLENGE <span class="hard-tag" id="difficulty-label" aria-label="Round difficulty">FAMILIAR GROUND</span></div>
+        <div class="game-stats"><div><span>ROUND</span><strong id="round-number">01 <small>/ 05</small></strong></div><div><span>TOTAL SCORE</span><strong id="total-score">0 <small>pts</small></strong></div></div>
+      </div>
+      <div class="play-area">
+        <section class="scene" id="scene" aria-label="Campus location photograph">
+          <img id="scene-photo" draggable="false" alt="Mystery campus location. Inspect the photo, then place your guess on the map.">
+          <div class="photo-vignette"></div>
+          <div class="scene-badge"><span class="camera-icon">◎</span> <span id="scene-badge">LOCATION 01</span></div>
+          <div class="image-loading" id="image-loading"><span class="spinner"></span><span>Finding your next corner of campus…</span></div>
+          <div class="image-error" id="image-error" hidden><strong>This photo couldn’t load.</strong><p>Your guess is waiting here.</p><button id="retry-photo" class="button">Try again ↻</button><button id="replace-photo" class="text-button">Try another location</button></div>
+          <div class="scene-bottom"><div><span class="scene-kicker">SOMEWHERE AT RUTGERS</span><h2 id="scene-heading">Looks familiar.<br>But where?</h2></div><div class="photo-controls"><button id="photo-zoom-out" aria-label="Zoom photograph out" title="Zoom out">−</button><span id="photo-zoom-label">1×</span><button id="photo-zoom-in" aria-label="Zoom photograph in" title="Zoom in">+</button><span class="control-separator"></span><button id="photo-fullscreen" aria-label="View photograph fullscreen" title="Fullscreen">⛶</button></div></div>
+          <div class="photo-credit" id="photo-credit"></div>
+        </section>
+        <aside class="guess-panel">
+          <div class="guess-heading"><div class="eyebrow">TRUST YOUR CAMPUS INSTINCT</div><h2>Make your mark.</h2><p id="map-instruction">Explore the map. Drop a pin where<br>you think this photo was taken.</p></div>
+          <div class="map-shell"><div id="map" aria-label="Guess map. Use arrow keys to move, plus and minus to zoom, then the center pin button to place a guess." tabindex="0"></div><button class="recenter" id="recenter-map" aria-label="Show all Rutgers campuses" title="Show all campuses">⌖</button><button class="center-pin" id="center-pin" title="Place your guess at the center of the map">⌖ Place pin at center</button><div id="map-error" hidden role="status"><strong>The map couldn’t load.</strong><span>Check your connection, then retry to place your guess.</span><button id="retry-map">Retry map ↻</button></div></div>
+          <div class="guess-status" id="guess-status"><span class="pin-small">⌖</span><span>One campus. A thousand possibilities.</span></div>
+          <button class="button guess-button" id="submit-guess" disabled><span id="submit-label">PLACE A PIN TO GUESS</span><span aria-hidden="true">↗</span></button>
+          <div class="guess-footnote"><span>5,000 points per round</span><span>Closer is better.</span></div>
+        </aside>
+      </div>
+      <div class="game-bottom"><div class="round-track" id="round-track" aria-label="Round progress"></div><div class="bottom-tip" id="bottom-tip"><span>↳</span> The obvious answer isn’t always the right one.</div><button class="new-game" id="new-game">Start over <span>↻</span></button></div>
+    </section>
+    <section class="results" id="results" hidden aria-labelledby="results-title">
+      <div class="eyebrow">FIVE ROUNDS. ONE SCARLET KNIGHT.</div><h2 id="results-title">You’ve been around.</h2><div class="final-score"><span id="final-score">0</span><small>/ 25,000 pts</small></div><p id="result-description"></p><div class="result-rows" id="result-rows"></div><div class="result-actions"><button id="play-again" class="button">ANOTHER FIVE? <span>↗</span></button><button id="share-results" class="share-button">Copy results <span>↗</span></button></div><p id="share-status" role="status"></p>
+    </section>
+    <section class="details-strip" aria-label="Game details"><div><span class="detail-icon">⌖</span><span><strong id="location-count">Loading locations</strong><small>Real photos. Real campus corners.</small></span></div><div><span class="detail-icon">⌕</span><span><strong>Take your time. Look closer.</strong><small>Each round gets harder.</small></span></div><div><span class="detail-icon">⚑</span><span><strong id="best-score">Your next campus obsession.</strong><small id="best-caption">Built for the ones who know the back way.</small></span></div></section>
+  </main>
+  <footer><span>A LITTLE LOST. <b>ALL SCARLET.</b></span><span>An independent campus game. Not affiliated with Rutgers University.</span><button id="credits-open">Photo credits ↗</button></footer>
+  <dialog id="help-dialog"><button class="dialog-close" data-close aria-label="Close instructions">×</button><div class="eyebrow">A DIFFERENT KIND OF CAMPUS TEST</div><h2>How well do you<br>know Rutgers?</h2><ol><li><strong>Look closely.</strong><span>You get a real photo from somewhere around Rutgers–New Brunswick. Zoom in and drag the photo to inspect it.</span></li><li><strong>Find your spot.</strong><span>Pan and zoom the map, then click to place a pin. You can move it until you lock in.</span></li><li><strong>Make the call.</strong><span>There is no time limit. Get within 20 meters of the camera position for a perfect 5,000. Points depend only on distance.</span></li></ol><p class="dialog-note">Five rounds, each harder than the last: recognizable surroundings first, obscure angles and details later. No repeated locations in a game. No hints. Take as long as you like: only “Lock in your guess” submits a round.</p><p class="dialog-note">Keyboard: focus the map, use arrows to pan and + / − to zoom. Use “Place pin at center,” then lock in your guess.</p><button class="button" data-close>GOT IT. LET’S GET LOST. <span>↗</span></button></dialog>
+  <dialog id="restart-dialog"><button class="dialog-close" data-close aria-label="Cancel restart">×</button><div class="eyebrow">BACK TO SQUARE ONE?</div><h2>A fresh set<br>of wrong turns.</h2><p>Your current game will be replaced with five new locations.</p><div class="dialog-actions"><button class="button" id="confirm-restart">START FRESH ↗</button><button class="share-button" data-close>Keep playing</button></div></dialog>
+  <dialog id="credits-dialog"><button class="dialog-close" data-close aria-label="Close photo credits">×</button><div class="eyebrow">THE PEOPLE BEHIND THE PICTURES</div><h2>Campus, captured.</h2><p>Photos from Wikimedia Commons, credited below. Images are displayed with a crop; use the photo controls to inspect them. Credits and original photos become available after each round to keep the location a mystery.</p><div id="credits-list"></div></dialog>
+  <div id="announcement" class="sr-only" aria-live="polite"></div>
+  <noscript>This game needs JavaScript enabled to show photos and accept guesses.</noscript>
+</body>
+</html>
